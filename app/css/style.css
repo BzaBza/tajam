@@ -1,5 +1,20 @@
+.expertise {
+  min-height: 100vh;
+  width: 100%;
+  overflow: hidden; }
 
-.header {
+.expertise-icons {
+  display: flex;
+  width: 90%;
+  justify-content: center; }
+  .expertise-icons li {
+    list-style: none;
+    flex-basis: 20%;
+    text-align: center;
+    margin: 8em 3em 0 3em; }
+
+
+.home-header {
   display: flex;
   justify-content: space-around;
   align-items: center; }
@@ -20,14 +35,20 @@ body {
   font-size: 14px; }
 
 .violet-section, .home {
+  min-height: 100vh;
+  width: 100%;
   background: linear-gradient(to right, rgba(9, 5, 47, 0.85) 0%, rgba(49, 29, 94, 0.85) 100%);
   background-size: cover;
   background-position: center; }
 
-.content, .home .home-content {
+.content, .footer, .home .home-content {
   display: flex;
   justify-content: center;
   flex-wrap: wrap; }
+
+.header {
+  text-align: center;
+  padding-top: 5em; }
 
 .button {
   border: 1px solid #00e0d0;
@@ -35,6 +56,10 @@ body {
   color: #00e0d0;
   padding: 15px;
   text-transform: uppercase; }
+
+.footer {
+  bottom: 0;
+  left: 0; }
 
 .home {
   position: relative;
@@ -49,6 +74,14 @@ body {
     text-align: center; }
     .home .home-content h1 {
       font-size: 32px; }
+
+.meet {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(to right, rgba(9, 5, 47, 0.85) 0%, rgba(49, 29, 94, 0.85) 100%), url("../graphics/images/put-your-image-here (2).png");
+  background-size: cover;
+  background-position: center;
+  color: white; }
 
 .our-story {
   display: flex;
@@ -68,7 +101,7 @@ body {
 
 .slider {
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   position: absolute;
   z-index: -1;
   top: 0;
