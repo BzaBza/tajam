@@ -30,7 +30,7 @@ body {
   flex-wrap: wrap; }
 
 .home {
-  position: absolute;
+  position: relative;
   z-index: 1;
   height: 100vh;
   width: 100%;
@@ -57,6 +57,7 @@ body {
     position: absolute; }
 
 .slider-button {
+  padding: 0;
   position: absolute;
   bottom: 0; }
   .slider-button li {
