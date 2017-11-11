@@ -1,3 +1,52 @@
+.comments {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  color: white;
+  background: linear-gradient(to right, rgba(9, 5, 47, 0.85) 0%, rgba(49, 29, 94, 0.85) 100%), url("../graphic/images/put-your-image-here (6).png");
+  background-size: cover;
+  background-position: center; }
+
+.quote-header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 5em; }
+
+.quote {
+  background-image: url("../graphic/icon/-.png");
+  height: 26px;
+  width: 32px; }
+
+.comments-content {
+  width: 50%;
+  margin: 16% auto;
+  letter-spacing: 0.7px;
+  text-align: center; }
+
+.carusel {
+  display: flex;
+  align-items: center;
+  padding: 0; }
+  .carusel li {
+    list-style: none;
+    margin: 0 0.5em 0 0.5em; }
+  .carusel button {
+    border: none; }
+
+.back {
+  background: url("../graphic/icon/back.png");
+  background-repeat: no-repeat;
+  width: 12px;
+  height: 21px; }
+
+.next {
+  background: url("../graphic/icon/forward.png");
+  background-repeat: no-repeat;
+  width: 12px;
+  height: 21px; }
+
 .expertise {
   min-height: 100vh;
   width: 100%;
@@ -32,10 +81,6 @@ body {
   flex-wrap: wrap;
   margin-top: 5em; }
 
-.header {
-  text-align: center;
-  padding-top: 5em; }
-
 .button {
   border: 1px solid #00e0d0;
   background: none;
@@ -44,6 +89,7 @@ body {
   text-transform: uppercase; }
 
 .footer {
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -60,7 +106,7 @@ body {
   color: white; }
   .home .home-content {
     width: 50%;
-    margin: 16% auto;
+    margin: 10% auto;
     letter-spacing: 0.7px;
     text-align: center; }
     .home .home-content h1 {
@@ -112,6 +158,10 @@ body {
     text-transform: uppercase; }
   .nav > li a:hover {
     color: #00e0d0; }
+
+.header {
+  text-align: center;
+  margin-top: 5em; }
 
 .our-works {
   width: 100%; }
