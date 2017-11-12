@@ -212,13 +212,20 @@ body {
   color: rgba(255, 255, 255, 0.85); }
 
 .main-footer {
-  color: white;
+  color: rgba(255, 255, 255, 0.85);
   background: linear-gradient(to right, rgba(9, 5, 47, 0.85) 0%, rgba(49, 29, 94, 0.85) 100%), url("../graphic/images/put-your-image-here (12).png");
   background-size: cover;
   background-position: center; }
   .main-footer section {
+    margin-top: 5em;
+    padding-right: 3em;
     width: 20%;
-    line-height: 26px; }
+    line-height: 26px;
+    height: 16em; }
+  .main-footer section:last-child {
+    padding: 0; }
+  .main-footer header {
+    font-size: 15px; }
 
 .our-studio dl .address {
   background: url("../graphic/icon/big104.png");
@@ -251,35 +258,56 @@ body {
         color: white;
         text-decoration: none; }
 
+.stay-in-touch-input {
+  background: none;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  padding: 1em; }
+
+.stay-in-touch-form {
+  display: flex;
+  align-items: center; }
+
+.stay-in-touch-button {
+  margin-left: 0.4em;
+  background: url("../graphic/icon/paper122.png"), rgba(255, 255, 255, 0.5);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 70px;
+  border: none;
+  height: 43px; }
+
 .stay-in-touch-list {
   display: flex;
   padding: 0; }
   .stay-in-touch-list .facebook {
     background: url("../graphic/social-network/2-layers.png");
     width: 36px;
-    height: 36px; }
+    height: 37px; }
   .stay-in-touch-list .twt {
     background: url("../graphic/social-network/2-layers (1).png");
     width: 36px;
-    height: 36px; }
+    height: 37px; }
   .stay-in-touch-list .drb {
     background: url("../graphic/social-network/2-layers (2).png");
     width: 36px;
-    height: 36px; }
+    height: 37px; }
   .stay-in-touch-list .inst {
     background: url("../graphic/social-network/2-layers (3).png");
     width: 36px;
-    height: 36px; }
+    height: 37px; }
   .stay-in-touch-list .google {
     background: url("../graphic/social-network/2-layers (4).png");
     width: 36px;
-    height: 36px; }
+    height: 37px; }
   .stay-in-touch-list .youtube {
     background: url("../graphic/social-network/2-layers (5).png");
     width: 36px;
-    height: 36px; }
+    height: 37px; }
   .stay-in-touch-list li {
+    margin-left: 0.2em;
     list-style: none; }
+  .stay-in-touch-list li:first-child {
+    margin-left: 0; }
 
 body {
   font-family: 'Roboto', sans-serif;
@@ -473,6 +501,7 @@ body {
   margin-top: 5em; }
 
 .logo {
+  margin-top: 0;
   display: flex;
   align-items: center;
   background: url("../graphic/icon/logo.png");
