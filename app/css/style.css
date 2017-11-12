@@ -1,6 +1,7 @@
 .client {
   width: 100%;
-  display: flex; }
+  display: flex;
+  flex-wrap: wrap; }
 
 .form-wrap {
   padding-right: 5em;
@@ -27,13 +28,17 @@
     color: #413d4b; }
 
 .our-clients {
-  width: 50%; }
+  margin-left: 10em;
+  width: 30%;
+  margin-top: 5em; }
 
 .partners {
   display: flex;
   flex-wrap: wrap;
-  flex-basis: 30%; }
+  flex-basis: 20%;
+  padding: 0; }
   .partners li {
+    margin-top: 3em;
     width: 50%;
     list-style: none; }
 
@@ -46,6 +51,8 @@
   background: linear-gradient(to right, rgba(9, 5, 47, 0.85) 0%, rgba(49, 29, 94, 0.85) 100%), url("../graphic/images/put-your-image-here (6).png");
   background-size: cover;
   background-position: center; }
+  .comments footer p {
+    text-align: center; }
 
 .quote-header {
   width: 100%;
@@ -101,6 +108,90 @@
     text-align: center;
     margin: 8em 3em 0 3em; }
 
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 14px; }
+
+.violet-section {
+  min-height: 100vh;
+  width: 100%;
+  background: linear-gradient(to right, rgba(9, 5, 47, 0.85) 0%, rgba(49, 29, 94, 0.85) 100%);
+  background-size: cover;
+  background-position: center; }
+
+.content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 5em; }
+
+.button {
+  border: 1px solid #00e0d0;
+  background: none;
+  color: #00e0d0;
+  padding: 15px;
+  text-transform: uppercase; }
+
+.footer, .main-footer {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center; }
+  .footer p, .main-footer p {
+    width: 100%; }
+
+.main-footer {
+  color: white;
+  background: linear-gradient(to right, rgba(9, 5, 47, 0.85) 0%, rgba(49, 29, 94, 0.85) 100%), url("../graphic/images/put-your-image-here (12).png");
+  background-size: cover;
+  background-position: center; }
+  .main-footer section {
+    width: 20%;
+    line-height: 26px; }
+
+.logo-section-footer {
+  text-align: left; }
+  .logo-section-footer ul {
+    padding: 0;
+    display: flex;
+    justify-content: space-between; }
+    .logo-section-footer ul li {
+      list-style: none; }
+      .logo-section-footer ul li a {
+        color: white;
+        text-decoration: none; }
+
+.stay-in-touch-list {
+  display: flex;
+  padding: 0; }
+  .stay-in-touch-list .facebook {
+    background: url("../graphic/social-network/2-layers.png");
+    width: 36px;
+    height: 36px; }
+  .stay-in-touch-list .twt {
+    background: url("../graphic/social-network/2-layers (1).png");
+    width: 36px;
+    height: 36px; }
+  .stay-in-touch-list .drb {
+    background: url("../graphic/social-network/2-layers (2).png");
+    width: 36px;
+    height: 36px; }
+  .stay-in-touch-list .inst {
+    background: url("../graphic/social-network/2-layers (3).png");
+    width: 36px;
+    height: 36px; }
+  .stay-in-touch-list .google {
+    background: url("../graphic/social-network/2-layers (4).png");
+    width: 36px;
+    height: 36px; }
+  .stay-in-touch-list .youtube {
+    background: url("../graphic/social-network/2-layers (5).png");
+    width: 36px;
+    height: 36px; }
+  .stay-in-touch-list li {
+    list-style: none; }
 
 body {
   padding: 0;
@@ -134,8 +225,7 @@ body {
   justify-content: center;
   align-items: center; }
   .footer p {
-    width: 100%;
-    text-align: center; }
+    width: 100%; }
 
 .home {
   position: relative;
@@ -158,6 +248,8 @@ body {
   background-size: cover;
   background-position: center;
   color: white; }
+  .meet footer p {
+    text-align: center; }
 
 .meet-icons > li {
   margin-left: 1em;
@@ -168,20 +260,21 @@ body {
     text-align: center; }
 
 .our-story {
-  display: flex;
-  align-items: center;
-  padding: 8em;
   color: #413d4b;
   font-family: Roboto, serif;
-  font-size: 14px;
   font-weight: 300;
   line-height: 22px;
   letter-spacing: 0.42px; }
   .our-story ul {
-    display: flex; }
+    display: inline-block; }
     .our-story ul li {
+      width: 33%;
+      display: inline-block;
       list-style: none;
-      margin-left: 10%; }
+      margin: 5%; }
+
+.our-story-image {
+  text-align: right; }
 
 .inline-header, .our-works header {
   display: flex;
@@ -201,6 +294,20 @@ body {
 .header {
   text-align: center;
   margin-top: 5em; }
+
+.logo {
+  display: flex;
+  align-items: center;
+  background: url("../graphic/icon/logo.png");
+  width: 44px;
+  height: 50px; }
+  .logo a {
+    color: #00e0d0;
+    padding-left: 2em;
+    font-family: "Roboto - Thin", serif;
+    font-size: 30px;
+    font-weight: 400;
+    text-decoration: none; }
 
 .our-works {
   width: 100%; }
