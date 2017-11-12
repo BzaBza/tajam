@@ -66,8 +66,9 @@
   width: 32px; }
 
 .comments-content {
-  width: 50%;
-  margin: 16% auto;
+  color: rgba(255, 255, 255, 0.85);
+  width: 30%;
+  margin: 4% auto;
   letter-spacing: 0.7px;
   text-align: center; }
 
@@ -96,7 +97,8 @@
 .expertise {
   min-height: 100vh;
   width: 100%;
-  overflow: hidden; }
+  overflow: hidden;
+  color: rgba(0, 0, 0, 0.75); }
 
 .expertise-icons {
   display: flex;
@@ -127,6 +129,7 @@ body {
   margin-top: 5em; }
 
 .button {
+  font-weight: 800;
   border: 1px solid #00e0d0;
   background: none;
   color: #00e0d0;
@@ -142,6 +145,18 @@ body {
   .footer p, .main-footer p {
     width: 100%; }
 
+.content-header:after {
+  margin-left: 45%;
+  margin-top: 1em;
+  display: flex;
+  content: '';
+  width: 50px;
+  height: 1px;
+  background-color: #00e0d0; }
+
+.font-decor {
+  color: rgba(255, 255, 255, 0.85); }
+
 .main-footer {
   color: white;
   background: linear-gradient(to right, rgba(9, 5, 47, 0.85) 0%, rgba(49, 29, 94, 0.85) 100%), url("../graphic/images/put-your-image-here (12).png");
@@ -150,6 +165,25 @@ body {
   .main-footer section {
     width: 20%;
     line-height: 26px; }
+
+.our-studio dl .address {
+  background: url("../graphic/icon/big104.png");
+  width: 14px;
+  height: 19px;
+  padding: 0;
+  margin: 0; }
+
+.our-studio dl .phone {
+  background: url("../graphic/icon/phone351.png");
+  width: 17px;
+  height: 17px; }
+
+.our-studio dl dt {
+  margin-right: 0; }
+
+.our-studio dl dd {
+  padding: 0;
+  margin: -1.5em 0 0 1.5em; }
 
 .logo-section-footer {
   text-align: left; }
@@ -212,6 +246,7 @@ body {
   margin-top: 5em; }
 
 .button {
+  font-weight: 800;
   border: 1px solid #00e0d0;
   background: none;
   color: #00e0d0;
@@ -226,6 +261,18 @@ body {
   align-items: center; }
   .footer p {
     width: 100%; }
+
+.content-header:after {
+  margin-left: 45%;
+  margin-top: 1em;
+  display: flex;
+  content: '';
+  width: 50px;
+  height: 1px;
+  background-color: #00e0d0; }
+
+.font-decor {
+  color: rgba(255, 255, 255, 0.85); }
 
 .home {
   position: relative;
@@ -250,6 +297,8 @@ body {
   color: white; }
   .meet footer p {
     text-align: center; }
+  .meet header {
+    padding-top: 5em; }
 
 .meet-icons > li {
   margin-left: 1em;
@@ -304,13 +353,17 @@ body {
   .logo a {
     color: #00e0d0;
     padding-left: 2em;
-    font-family: "Roboto - Thin", serif;
+    font-family: 'Roboto - Thin', serif;
     font-size: 30px;
-    font-weight: 400;
+    font-weight: 100;
     text-decoration: none; }
 
 .our-works {
   width: 100%; }
+  .our-works header {
+    padding-top: 4em; }
+  .our-works footer {
+    padding-bottom: 5em; }
 
 .our-works-content ul {
   display: flex;
