@@ -150,8 +150,9 @@ body {
 
 .expertise-icons {
   display: flex;
-  width: 90%;
-  justify-content: center; }
+  padding: 0;
+  justify-content: space-around;
+  margin: 0 15em 0 15em; }
   .expertise-icons li {
     list-style: none;
     flex-basis: 20%;
@@ -427,8 +428,9 @@ body {
 
 .expertise-icons {
   display: flex;
-  width: 90%;
-  justify-content: center; }
+  padding: 0;
+  justify-content: space-around;
+  margin: 0 15em 0 15em; }
   .expertise-icons li {
     list-style: none;
     flex-basis: 20%;
@@ -482,6 +484,7 @@ body {
   text-align: right; }
 
 .inline-header, .our-works header {
+  padding-top: 1em;
   display: flex;
   justify-content: space-around;
   align-items: center; }
